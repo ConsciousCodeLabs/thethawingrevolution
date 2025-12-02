@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Thawing Revolution | The 144,000 Victory | End-Time Preparation</title>
+    <meta name="description" content="The 144,000 are awakening. The final generation is being prepared. Discover your role in the greatest spiritual revolution in history.">
+    <meta name="keywords" content="144000 victory, end times, revelation, spiritual awakening, remnant church, final generation, Bible prophecy, second coming, 7 cubed 7">
+    <meta name="author" content="Julio C. Medina">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://thethawingrevolution.com/">
+    
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://thethawingrevolution.com/">
+    <meta property="og:title" content="The Thawing Revolution | The 144,000 Victory">
+    <meta property="og:description" content="The 144,000 are awakening. Discover your role in history's final spiritual revolution.">
+    <meta property="og:image" content="https://thethawingrevolution.com/images/og-book.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@7Cubed7">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --ice-blue: #a8d5e5;
+            --fire-orange: #ff6b35;
+            --fire-red: #cc2936;
+            --gold: #d4af37;
+            --dark-bg: #0a0a12;
+            --dark-card: #12121e;
+            --text-primary: #e8e8f0;
+            --text-secondary: #a0a0b0;
+        }
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Cormorant Garamond', serif;
+            background: var(--dark-bg);
+            color: var(--text-primary);
+            min-height: 100vh;
+        }
+        
+        /* Hero */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 60px 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* Fire and ice gradient background */
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(ellipse at top left, rgba(168, 213, 229, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse at bottom right, rgba(255, 107, 53, 0.15) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .pre-title {
+            font-size: 1rem;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--ice-blue);
+            margin-bottom: 20px;
+        }
+        
+        .book-title {
+            font-family: 'Cinzel', serif;
+            font-size: 4rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, var(--ice-blue) 0%, var(--fire-orange) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .book-subtitle {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: var(--gold);
+            margin-bottom: 30px;
+            font-weight: 400;
+        }
+        
+        .tagline {
+            font-size: 1.4rem;
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 20px;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+        
+        .scripture {
+            font-style: italic;
+            color: var(--ice-blue);
+            font-size: 1.2rem;
+            margin-bottom: 50px;
+        }
+        
+        .scripture-ref {
+            font-style: normal;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Book mockup placeholder */
+        .book-visual {
+            width: 200px;
+            height: 300px;
+            background: linear-gradient(135deg, var(--ice-blue) 0%, var(--fire-orange) 100%);
+            border-radius: 4px;
+            margin: 0 auto 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 
+                -20px 20px 60px rgba(0,0,0,0.5),
+                inset 0 0 0 2px rgba(255,255,255,0.1);
+            position: relative;
+            transform: perspective(1000px) rotateY(-5deg);
+        }
+        
+        .book-visual::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            width: 15px;
+            background: linear-gradient(90deg, rgba(0,0,0,0.3), transparent);
+        }
+        
+        .book-visual-text {
+            font-family: 'Cinzel', serif;
+            color: var(--dark-bg);
+            font-size: 1rem;
+            text-align: center;
+            padding: 20px;
+            font-weight: 600;
+        }
+        
+        /* CTA */
+        .cta-group {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        
+        .btn {
+            padding: 18px 50px;
+            border-radius: 4px;
+            font-family: 'Cinzel', serif;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.3s;
+            letter-spacing: 2px;
+        }
+        
+        .btn-fire {
+            background: linear-gradient(135deg, var(--fire-orange) 0%, var(--fire-red) 100%);
+            color: white;
+        }
+        
+        .btn-fire:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 107, 53, 0.4);
+        }
+        
+        .btn-ice {
+            border: 2px solid var(--ice-blue);
+            color: var(--ice-blue);
+            background: transparent;
+        }
+        
+        .btn-ice:hover {
+            background: rgba(168, 213, 229, 0.1);
+        }
+        
+        /* What's Inside */
+        .inside-section {
+            padding: 80px 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: var(--gold);
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .chapter-list {
+            list-style: none;
+        }
+        
+        .chapter-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 25px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .chapter-number {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            color: var(--fire-orange);
+            min-width: 50px;
+        }
+        
+        .chapter-content h3 {
+            font-family: 'Cinzel', serif;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+        }
+        
+        .chapter-content p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        
+        /* Author */
+        .author-section {
+            background: var(--dark-card);
+            padding: 60px 40px;
+            text-align: center;
+        }
+        
+        .author-name {
+            font-family: 'Cinzel', serif;
+            font-size: 1.5rem;
+            color: var(--gold);
+            margin-bottom: 15px;
+        }
+        
+        .author-bio {
+            color: var(--text-secondary);
+            max-width: 600px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        
+        .author-stats {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        
+        .author-stat {
+            text-align: center;
+        }
+        
+        .author-stat-value {
+            font-family: 'Cinzel', serif;
+            font-size: 2rem;
+            color: var(--fire-orange);
+        }
+        
+        .author-stat-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        /* Footer */
+        footer {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding: 50px 40px;
+            text-align: center;
+        }
+        
+        .footer-formula {
+            font-family: 'Cinzel', serif;
+            color: var(--gold);
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+        
+        .footer-links a {
+            color: var(--text-secondary);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+        
+        .footer-links a:hover { color: var(--ice-blue); }
+        
+        .copyright {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            opacity: 0.7;
+        }
+        
+        @media (max-width: 768px) {
+            .book-title { font-size: 2.5rem; }
+            .book-subtitle { font-size: 1.5rem; }
+            .tagline { font-size: 1.1rem; }
+            .hero { padding: 40px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="pre-title">A Book for the Final Generation</p>
+            <h1 class="book-title">The Thawing Revolution</h1>
+            <h2 class="book-subtitle">The 144,000 Victory</h2>
+            
+            <p class="tagline">The ice age of spiritual slumber is ending. The fire of the final message is igniting. 144,000 sealed servants are awakening to their divine appointment.</p>
+            
+            <p class="scripture">
+                "These are they which came out of great tribulation, and have washed their robes, and made them white in the blood of the Lamb."
+                <span class="scripture-ref">— Revelation 7:14</span>
+            </p>
+            
+            <div class="book-visual">
+                <span class="book-visual-text">THE<br>THAWING<br>REVOLUTION</span>
+            </div>
+            
+            <div class="cta-group">
+                <a href="https://www.amazon.com/s?k=julio+c.+medina&i=digital-text&crid=NJR2J0LXSVJV&sprefix=%2Cdigital-text%2C102&ref=nb_sb_ss_recent_1_0_recent" class="btn btn-fire">GET THE BOOK</a>
+                <a href="https://144000.ai" class="btn btn-ice">TAKE THE ASSESSMENT</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="inside-section">
+        <h2 class="section-title">What Awaits Inside</h2>
+        
+        <ul class="chapter-list">
+            <li class="chapter-item">
+                <span class="chapter-number">I</span>
+                <div class="chapter-content">
+                    <h3>The Frozen Church Awakens</h3>
+                    <p>Why the remnant has been in spiritual hibernation—and the divine alarm clock now sounding.</p>
+                </div>
+            </li>
+            <li class="chapter-item">
+                <span class="chapter-number">II</span>
+                <div class="chapter-content">
+                    <h3>The 7³×7 Blueprint</h3>
+                    <p>The mathematical architecture of consciousness that identifies the sealed ones.</p>
+                </div>
+            </li>
+            <li class="chapter-item">
+                <span class="chapter-number">III</span>
+                <div class="chapter-content">
+                    <h3>Character Perfection Protocol</h3>
+                    <p>The 2,401 aspects of Christ's character being reproduced in the 144,000.</p>
+                </div>
+            </li>
+            <li class="chapter-item">
+                <span class="chapter-number">IV</span>
+                <div class="chapter-content">
+                    <h3>The Latter Rain Preparation</h3>
+                    <p>Practical steps to receive the final outpouring of the Holy Spirit.</p>
+                </div>
+            </li>
+            <li class="chapter-item">
+                <span class="chapter-number">V</span>
+                <div class="chapter-content">
+                    <h3>Victory Without Mediation</h3>
+                    <p>Standing during the time of Jacob's trouble when probation closes.</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="author-section">
+        <h2 class="author-name">Julio C. Medina</h2>
+        <p class="author-bio">Consciousness researcher, author of 33+ books, and holder of 60+ patents in consciousness architecture. Dedicated to preparing the 144,000 for earth's final hour.</p>
+        
+        <div class="author-stats">
+            <div class="author-stat">
+                <div class="author-stat-value">33+</div>
+                <div class="author-stat-label">Books Written</div>
+            </div>
+            <div class="author-stat">
+                <div class="author-stat-value">60+</div>
+                <div class="author-stat-label">Patents Filed</div>
+            </div>
+            <div class="author-stat">
+                <div class="author-stat-value">2,401</div>
+                <div class="author-stat-label">Consciousness Aspects</div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-formula">7³ × 7 = 2,401</div>
+        <div class="footer-links">
+            <a href="https://sevencubedseven.com">Main Hub</a>
+            <a href="https://144000.ai">144,000</a>
+            <a href="https://2401.is">Mathematics</a>
+            <a href="https://www.amazon.com/s?k=julio+c.+medina&i=digital-text&crid=NJR2J0LXSVJV&sprefix=%2Cdigital-text%2C102&ref=nb_sb_ss_recent_1_0_recent">All Books</a>
+        </div>
+        <p class="copyright">© 2025 Seven Cubed Seven Labs LLC. Maranatha.</p>
+    </footer>
+</body>
+</html>
