@@ -1,0 +1,7 @@
+# Seven Cubed Seven Labs LLC
+# robots.txt for thethawingrevolution.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://thethawingrevolution.com/sitemap.xml
